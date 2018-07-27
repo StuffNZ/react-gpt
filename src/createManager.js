@@ -144,7 +144,7 @@ export class AdManager extends EventEmitter {
         });
     }
 
-    _foldCheck = throttle(20, event => {
+    _foldCheck = throttle(50, event => {
         const instances = this.getMountedInstances();
         instances.forEach(instance => {
             if (instance.getRenderWhenViewable()) {
@@ -192,9 +192,9 @@ export class AdManager extends EventEmitter {
                 ["pubads", "content", "companionAds"].forEach(service => {
                     // there is no API to remove listeners.
                     this.googletag[service]().addEventListener(
-                        eventType,
-                        this._onEvent.bind(this, eventType)
-                    );
+                            eventType,
+                            this._onEvent.bind(this, eventType)
+                        );
                 });
             });
             this._listening = true;

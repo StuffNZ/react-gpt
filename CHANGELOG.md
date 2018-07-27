@@ -80,7 +80,7 @@ import {createManagerTest} from "react-gpt/es/utils/createManagerTest";
 ### Bug Fixes
 
 * Add yarn.lock ([b7c7c50](https://github.com/nfl/react-gpt/commit/b7c7c50))
-* Import PropTypes from prop-types package ([34b61be](https://github.com/nfl/react-gpt/commit/34b61be))
+* Import PropTypes from prop-types package    ([34b61be](https://github.com/nfl/react-gpt/commit/34b61be))
 * Move MockGPT out of distribution files ([775fe26](https://github.com/nfl/react-gpt/commit/775fe26))
 * Import ReactTestUtils from test-utils ([75e74f6](https://github.com/nfl/react-gpt/commit/75e74f6))
 
@@ -90,7 +90,7 @@ import {createManagerTest} from "react-gpt/es/utils/createManagerTest";
 
 ### Bug Fixes
 
-* more gracefully handle adSlot becoming empty object due to AdBlocker ([7f9a989](https://github.com/nfl/react-gpt/commit/7f9a989))
+* more gracefully handle adSlot becoming empty object due to AdBlocker   ([7f9a989](https://github.com/nfl/react-gpt/commit/7f9a989))
 
 <a name="0.2.3"></a>
 
